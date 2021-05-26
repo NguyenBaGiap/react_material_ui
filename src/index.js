@@ -2,7 +2,6 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import CssBaseline from '@material-ui/core/CssBaseline/CssBaseline';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
-import { Provider } from 'react-redux';
 import App from './App';
 
 

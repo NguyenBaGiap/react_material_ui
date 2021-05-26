@@ -13,12 +13,12 @@ const globalTheme = createMuiTheme({
 
 ReactDOM.render(
   <React.StrictMode>
-      <React.Fragment>
-          <CssBaseline />
-          <MuiThemeProvider theme={globalTheme}>
-              <App />
-          </MuiThemeProvider>
-      </React.Fragment>
+          <React.Fragment>
+              <CssBaseline />
+              <MuiThemeProvider theme={globalTheme}>
+                  <App />
+              </MuiThemeProvider>
+          </React.Fragment>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -9,27 +9,33 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "classnames": "^2.3.1",
-    "eslint-config-prettier": "^8.1.0",
     "history": "^4.10.1",
-    "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "lodash": "^4.17.21",
+    "connected-react-router": "^6.9.1",
     "material-auto-rotating-carousel": "^3.0.2",
     "material-ui-confirm": "^2.1.2",
     "material-ui-dropzone": "^3.5.0",
     "material-ui-flat-pagination": "^4.1.1",
     "material-ui-image": "^3.3.2",
-    "moment": "^2.29.1",
     "notistack": "^1.0.9",
-    "prettier": "^2.2.1",
-    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
     "react-router": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "redux": "^4.1.0",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "classnames": "^2.3.1",
+    "eslint-config-prettier": "^8.1.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
     "redux-form": "^8.3.7",
     "redux-thunk": "^2.3.0"
   },
@@ -67,11 +73,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
